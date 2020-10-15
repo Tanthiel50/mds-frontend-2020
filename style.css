@@ -26,6 +26,7 @@ body
     top: 0rem;
 }
 
+/* problème si j'appelle mon image par son id ca ne marche pas donc problème si je veux mettre d'autres images */
 img {
     height: auto;
     width: 250px;
@@ -78,4 +79,5 @@ ul
 {
     list-style-type: none;
 }
+
 
