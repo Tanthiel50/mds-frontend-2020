@@ -1,7 +1,52 @@
+body
+{
+    font-family: 'Playfair Display', serif, arial, sans-serif;
+}
+
 #presentation
 {
-    color: blue;
+    background: #f28f38;
+    color: #0c2c40;
+    padding-bottom: 1rem;
+    font-family: 'Lobster';
 }
+
+nav {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    list-style-type: none;
+  margin: 0;
+  padding-right: 2rem;
+  background-color: #f2e1ce;
+    
+}
+
+nav ul li {
+    padding-bottom: 1rem;
+}
+
+
+.fa {
+  color : #f28f38;
+}
+
+.fas {
+  color : #f28f38;
+}
+
+.fa-building:hover{
+    color: #0c2c40; 
+}
+
+.fa-school:hover{
+    color: #0c2c40; 
+}
+
+.fa-envelope:hover{
+    color: #0c2c40; 
+}
+
 
 ul
 {
