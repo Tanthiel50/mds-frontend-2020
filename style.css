@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body
 {
     font-family: 'Playfair Display', serif, arial, sans-serif;
@@ -8,14 +12,35 @@ body
     background: #f28f38;
     color: #0c2c40;
     padding-bottom: 1rem;
+    padding-top: 1rem;
     font-family: 'Lobster';
+    font-size: 2rem;
+    position: relative; 
+}
+
+/* Span faux je n'arrive pas a le faire apparaitre a droite sur mon header */
+span {
+    display: block;
+    float: right;
+}
+
+img {
+    height: auto;
+    width: 250px;
+    height: auto;
+    border-radius: 80%;
+    position: absolute;
+    display: block;
+  margin-left: 45%;
+  margin-right: auto;
+    top: 10rem;
+    border: 5px solid #ffff;
 }
 
 nav {
     position: fixed;
     right: 0;
     top: 50%;
-    list-style-type: none;
   margin: 0;
   padding-right: 2rem;
   background-color: #f2e1ce;
