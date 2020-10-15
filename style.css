@@ -18,10 +18,12 @@ body
     position: relative; 
 }
 
-/* Span faux je n'arrive pas a le faire apparaitre a droite sur mon header */
-span {
+/* faux je n'arrive pas a le faire apparaitre a droite sur mon header */
+#titre {
     display: block;
     float: right;
+    position: static;
+    top: 0rem;
 }
 
 img {
@@ -72,8 +74,8 @@ nav ul li {
     color: #0c2c40; 
 }
 
-
 ul
 {
     list-style-type: none;
 }
+
