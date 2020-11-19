@@ -1,123 +1,120 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
   <head>
     <meta charset="UTF-8">
-      <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/e96068ea12.js" crossorigin="anonymous"></script>
-    <title>Cecile's portfolio</title>
+    <title>Cécile Blin</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
+  <style rel="stylesheet" href="style.css">
+   
+  </style>
+
   </head>
-    
   <body>
-      
-      <!--header-->
-      
+      <nav>
+          <div>Webmarketing et social media</div>
+          <div>
+              <ul>
+                <li>HOME</li>
+                <li>ETUDES</li>
+                <li>EXPERIENCES</li>
+                <li>CREATIONS</li>
+                <li>COMPETENCES</li>
+                <li>CONTACT</li>
+              </ul>
+            </div>
+      </nav>
+
       <header>
-        <div id="presentation"> 
-            <h1>Cécile Blin</h1>
-            <p id="titre">Webmarketing et social media</p>
+          <div class="rondgris" id="rondgris-header"></div>
+          <div class="rondbleu" id="rondbleu-header"></div>
+          <div id="rondblanc-header"></div>
+          <div class="rondbleusmall" id="rondbleusmall-header"></div>
+          <div>
+              <div><h1>Cécile BLin</h1></div>
+              <div><h2>Webmarketing Social media</h2></div>
+              <div id="traitsmall"></div>
+          </div>
+      </header>
+
+      <section>
+          <div><h3>ETUDES</h3></div>
+          <div class="trait" id="trait-etude"></div>
+          <div class="rondbleu" id="rondbleu-etude"></div>
+          <div class="rondbleu" id="rondbleu-etude2"></div>
+          <div class="etudes">
+              <div>2020-2021 MyDigitalSchool - Nantes</div>
+              <div>Bachelor Webmarketing et Social Media</div>
+              <div>2018-2020 Notre Dame du Roc - La Roche Sur Yon</div>
+              <div>BTS Négociation et digitalisation de la relation client</div>
+              <div>2012-2013 Ecoris -Annemasse</div>
+              <div>Bachelor commerce communication et management</div>
+              <div>2009-2011 Université Vauban - Nîmes</div>
+              <div>Licence de lettres modernes</div>
+              <div>2006-2009 Lycée Saint Joseph - La Roche Sur Yon</div>
+              <div>Baccalauréat Sciences économiques et sociales</div>
+            </div>
+      </section>
+
+      <section>
+        <div><h3>EXPERIENCES</h3></div>
+        <div class="trait" id="trait-experience"></div>
+        <div class="rondgris" id="rondgris-experience"></div>
+        <div class="rondbleu" id="rondbleu-experience"></div>
+        <div class="experience">
+          <div>2020 SEIF Consult - Vertou</div>
+          <div>Alternance Customer Success Manager</div>
+          <div>2018-2020 SPBI Jeanneau - Les Herbiers</div>
+          <div>Alternance service relation client</div>
+          <div>2017-2018 SPBI Jeanneau - Les Herbiers</div>
+          <div>Assistante service client bilingue</div>
+          <div>2015-2017 Hôtel de France - Morestel</div>
+          <div>Hôtess, responsable communication</div>
+          <div>2014-2015 Cultural Care - New York</div>
+          <div>Jeune fille au pair</div>
+          <div>2010-2014 Totem - Boufféré</div>
+          <div>Employée polyvalente</div>
+        </div> 
+      </section>
+
+      <section>
+        <div><h3>CREATIONS</h3></div>
+        <div class="trait" id="trait-creations"></div>
+        <div class="slideshow"></div>
+      </section>
+
+      <section>
+        <div><h3>COMPETENCES</h3></div>
+        <div class="trait" id="trait-competence"></div>
+        <div id="rondblancbig-competence">
+          <div>Anglais</div>
+          <div>Selligent</div>
+          <div>Marketing</div>
+          <div>Parcours client</div>
+          <div>Relations client</div>
+          <div>Indesign</div>
+          <div>Zendesk</div>
+          <div>Trestashop</div>
         </div>
-        <div id="img-circular"><img src="ressources/images/avatar.jpg"> </div>
-        <nav>
-            <ul>
-                <li><a href="#pro"><i class="fas fa-building fa-2x" ></i></a></li> 
-                <li><a href="#school"><i class="fa fa-school fa-2x"></i></a></li> 
-                <li><a href="#contact"><i class="fa fa-envelope fa-2x"></i></a></li>
-            </ul>
-        </nav>
-    </header>
-        
-      <!--Experiences pro // tentative de créer des boxe pour chaque expérience et faire un scroll horizontale pour chaque boxe, ne fonctionne pas-->
-      
-     <div id="container">
-    <h2 id="pro">Expériences professionnelles</h2>
-     
-    <div class="container2">
-    <div class="boxe one"><h3>SEIF Consult</h3>
-        <p>2020-2021 Vertou France</p>
-        <ul>
-            <li>Mise en place des outils relation client</li>
-            <li>Création e-mailing</li>
-            <li>Création de communication sur les réseaux de communication</li>
-            <li>Création de la customer journey</li>
-        </ul>
-      </div>
-      
-      <div class="boxe two"><h3>SPBI JEANNEAU</h3>
-          <p>2017-2020 Les Herbiers France</p>
-          <ul>
-            <li>Mise en place outil ticketing (Zendesk)</li>
-            <li>Codage FAQ (Guide)</li>
-            <li>Aide mise en place e-shop (Prestashop)</li>
-            <li>Mise en place du parcours client digital</li>
-            <li>Création de supports formations</li>
-            <li>Soutien à l'organisation d'évènements</li>
-          </ul>
-    </div>
-      
-    <div class="boxe three"><h3>Hôtel de France</h3>
-        <p>2015-2017 Morestel France</p>
-        <ul>
-            <li>Gestion hôtelière</li>
-            <li>Service en salle</li>
-            <li>Création de supports de communication</li>
-            <li>Création et animation d'une page facebook</li>
-        </ul>
-    </div>
-      
-    <div class="boxe four"><h3>Cultural Care au pair</h3>
-        <p>2014-2015 New-York USA</p>
-        <ul>
-            <li>Fille au pair aux USA</li>
-        </ul>  
-    </div>
-         </div>
-      </div 
-      
-      <!--Formations-->
-      
-    <section>  
-    <h2 id="school">Formations</h2>
-        
-    <div><h3>Bachelor Webmarketing et social media</h3>
-          <p>2020-2021 Nantes France</p>
-          <ul>
-            <li>Negociation et digitalisation de la relation client</li>
-          </ul>
-      </div>
-      
-      <div><h3>BTS NDRC</h3>
-          <p>2018-2020 La Roche Sur Yon France</p>
-          <ul>
-            <li>Negociation et digitalisation de la relation client</li>
-          </ul>
-      </div>
-      
-      <div><h3>Bachelor CCM</h3>
-        <p>2012-2013 Annemasse France</p>
-        <ul>
-            <li>Bachelor commerce, communication et management</li>
-        </ul>
-      </div>
-      
-      <div><h3>Licence Lettres modernes</h3>
-        <p>2009-2011 Nîmes France</p>
-        <ul>
-            <li>Obtention des 2 premières années</li>
-        </ul>
-      </div>
-      
-      <div><h3>BAC ES</h3>
-        <p>2006-2009 La Roche Sur Yon France</p>
-        <ul>
-            <li>Bac sciences économiques et sociales spécialisation mathématiques</li>
-        </ul>
-      </div>  
-    </section>
-      
-      <!--Footer TO DO-->
-      <div id="contact">Contactez moi</div>
-      
+        <div id=rondbleubig-competences>
+          <div>Advertising</div>
+          <div>Photoshop</div>
+          <div>Animation RS</div>
+          <div>Gestion évènements</div>
+        </div>
+      </section>
+
+      <footer>
+        <div><h3>CONTACT</h3></div>
+        <div class="trait" id="trait-contact"></div>
+        <div class="button"> Télécharger le CV</div>
+        <div class=" button">Envoyer moi un mail</div>
+        <div><ul>
+          <li id="Whatshapp"></li>
+          <li id="linkedin"></li>
+        </ul></div>
+      </footer>
+  
   </body>
 </html>
