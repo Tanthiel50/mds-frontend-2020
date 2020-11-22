@@ -1,0 +1,83 @@
+header {
+    position: relative;
+    height: 25vh;
+    width: 100%;
+    margin-top: 3vh;
+    background: #2A2A2A;
+    overflow: hidden;
+    margin-bottom: 0%;
+  }
+.rondgris {
+    background-color:#323232;
+    border-radius: 50%;
+    height: 12vh;
+    width: 12vh;
+    position: absolute;
+}
+
+.rondbleu {
+    background-color:#87CEFA;
+    border-radius: 50%;
+    height: 13vh;
+    width: 13vh;
+    position: absolute;
+}
+
+#rondgris-header {
+    position: absolute;
+    top: -5vh;
+    left: 15vw;
+}
+
+#rondbleu-header {
+    position: absolute;
+    top: 10vh;
+    left: 30vw;
+}
+
+#rondblanc-header {
+    background-color:#f2f2f2;
+    border-radius: 50%;
+    height: 22vh;
+    width: 22vh;
+    position: absolute;
+    top: 2vh;
+    left: 60vw;
+}
+
+#rondbleusmall-header {
+    background-color:#87CEFA;
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    top: 8vh;
+    left: 80vw;
+}
+
+#rondgris-header2 {
+    position: absolute;
+    top: 4vh;
+    left: 45vw;
+}
+
+#box-text-header {
+    position: absolute;
+    top: 5vh;
+    height: 20vh;
+    width: 40vh;
+    left: 5vw;
+    color: #f2f2f2;
+}
+
+#traitsmall {
+    position: absolute;
+    border-style: solid;
+    border-bottom: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    top: 7vh;
+    height: 4vh;
+    width: 23vh;
+    left: 0vw;
+}

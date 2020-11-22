@@ -1,0 +1,38 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: white;
+    box-sizing: border-box;
+  }
+
+  h1 {
+      font-family: 'brushland', 'Courier New', Courier, monospace;
+      font-size: 5vh;
+      line-height: 1vh;
+  }
+
+  h2{
+    font-family: 'brushland', 'Courier New', Courier, monospace;
+    font-size: 4vh;
+}
+ h3{
+    font-family: 'brushland', 'Courier New', Courier, monospace;
+    font-size: 4vh;
+}
+
+.titre-section {
+    text-align: center;
+}
+
+.trait {
+    position: absolute;
+    border-style: solid;
+    border-color: #707070;
+    border-bottom: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    height: 4vh;
+    width: 70vh;
+    left: 67vh;
+}
+  

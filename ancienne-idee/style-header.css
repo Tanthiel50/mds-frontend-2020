@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.body
+{
+    font-family: 'Playfair Display', serif, arial, sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    grid-template-rows: repeat(2, 20vh);
+		}
+
+.box {
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    border: solid black;
+    /*Etape 2*/
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+
+		}
+
+.box-titre {
+    grid-column : 1 / 2;
+    grid-row: 1 / 2;
+	    }
+
+.box-image {
+    grid-column : 2 / 3;
+    grid-row: 1 / 2;
+	    }
+
+.box-poste {
+    grid-column : 3 / 4;
+    grid-row: 1 / 2;
+	    }
+#img-circular {
+    height: auto;
+    width: 250px;
+    height: auto;
+    border-radius: 80%;
+    margin-left: 45%;
+    margin-right: auto;
+    top: 10rem;
+    border: 5px solid #ffff;
+}

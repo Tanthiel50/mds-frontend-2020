@@ -1,0 +1,48 @@
+#box-text-etudes {
+    position: relative;
+    height: 10vh;
+    width: 100%;
+}
+
+#trait-etude {
+    top: 5vh;
+}
+
+#etudes {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    background: #323232;
+}
+
+#rondbleu-etudes {
+    position: absolute;
+}
+
+.titre {
+    font-family: 'poppins', 'Courier New', Courier, monospace;
+    font-size: 2vh;
+    padding-left: 75vh;
+    color: #f2f2f2;
+    padding-top: 2vh;
+}
+
+.description {
+    font-family: 'poppins', 'Courier New', Courier, monospace;
+    font-size: 2vh;
+    padding-left: 85vh;
+    padding-bottom: 2vh;
+    color: #f2f2f2;
+}
+
+#rondbleu-etude {
+    top: -4vh;
+    left: 5vh;
+}
+
+#rondbleu-etude2 {
+    top: 20vh;
+    left: 75vw;
+    height: 25vh;
+    width: 25vh;
+}
