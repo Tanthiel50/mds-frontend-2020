@@ -21,16 +21,15 @@ html, body {
 }
 
 .titre-section {
-    text-align: center;
     position: relative;
+    text-align: center;
 }
 
 .trait {
     position: absolute;
     left: 25vw;
     bottom: 0;
-    height: 0.4vh;
+    height: 0.4vh; /* perso j'aurais mis 2px */
     width: 50vw;
     background: #707070;
 }
-  
