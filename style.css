@@ -22,17 +22,15 @@ html, body {
 
 .titre-section {
     text-align: center;
+    position: relative;
 }
 
 .trait {
     position: absolute;
-    border-style: solid;
-    border-color: #707070;
-    border-bottom: hidden;
-    border-right: hidden;
-    border-left: hidden;
-    height: 4vh;
-    width: 70vh;
-    left: 67vh;
+    left: 25vw;
+    bottom: 0;
+    height: 0.4vh;
+    width: 50vw;
+    background: #707070;
 }
   
