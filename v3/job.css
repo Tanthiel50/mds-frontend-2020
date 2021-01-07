@@ -1,0 +1,67 @@
+.h {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-right: solid white 0.3rem;
+}
+
+.jobs-blocs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.image {
+    position: relative;
+    width: 25%;
+    margin: 1rem;
+}
+
+.image__img {
+    height: 100%;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'poppins-regular';
+    opacity: 0;
+    color: #ffffff;
+    background: #3498db;
+
+    transition: opacity 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+

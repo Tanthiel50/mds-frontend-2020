@@ -1,3 +1,39 @@
+@font-face {
+    font-family: 'cooperfiveopti';
+    src: url(ressources/fonts/CooperFiveOpti-Black.otf);
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url(ressources/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url(ressources/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'poppins-black';
+    src: url(ressources/fonts/Poppins-Black.ttf);
+}
+
+@media screen and (max-width: 1024px) {
+    .rond {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .rond-petit {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .rond-small {
+        display: none !important;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,26 +43,17 @@ body {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(7, 20vh);
+    /*grid-template-rows: repeat(7, 14%);*/
   }
 
   .box {
-    border-radius: 0.5rem;
-    font-size: 1.5rem;
-    border: solid black;
+    /*border: solid black;*/
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
-
-  .a {
-      grid-column : 1 / 2;
-      grid-row: 1 / 2;
-  }
-  
-  .b {
-      grid-column: 2 / 3;
+  .header {
+      grid-column: 1 / 3;
       grid-row: 1 / 2;
   }
 
@@ -68,4 +95,22 @@ body {
   .j {
       grid-column: 1 / 3;
       grid-row: 7 / 8;
+    }
+    
+    h2 {
+    font-family: 'cooperfiveopti';
+    font-size: 2rem;
   }
+
+  h3 {
+    font-family: 'cooperfiveopti';
+    font-size: 1.5rem;
+  }
+
+  .separation {
+      border-top: solid #707070 0.3rem;
+      width: 100%;
+      margin-top: -1.5rem;
+  }
+  
+

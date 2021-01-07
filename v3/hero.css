@@ -1,0 +1,95 @@
+.c {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'cooperfiveopti';
+    background-color: #2a2a2a;
+    color: #f2f2f2;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 6.5rem;
+}
+
+.button {
+    display: flex;
+    padding-top: 2rem;
+    width: 30%;
+    justify-content: space-around;
+}
+
+#button-portfolio {
+    border: solid #f2f2f2;
+    border-radius: 20rem;
+    padding: 1rem;
+    text-align: center;
+    color: #2a2a2a;
+    vertical-align: middle;
+    line-height: 4rem;
+}
+
+#button-cv {
+    border: solid #f2f2f2;
+    border-radius: 20rem;
+    padding: 1rem;
+}
+
+  .rond {
+    position: absolute;
+    border-radius: 50%;
+    background: #87cefa;
+    height: 20vh;
+    width: 20vh; 
+  }
+
+  #rond-gauche {
+    top: 1vh;
+    left: 15vw;
+  }
+
+  #rond-droit {
+    top: 13vh;
+    right: 15vw;
+
+  }
+
+  .rond-petit {
+    position: absolute;
+    border-radius: 50%;
+    background: #D9E9F2;
+    height: 15vh;
+    width: 15vh; 
+    border: solid 1rem #2a2a2a;
+  }
+
+  #rond-gauche-petit {
+    top: 2vh;
+    left: 12vw;
+  }
+
+  #rond-droit-petit {
+    top: 10vh;
+    right: 12vw;
+  }
+
+  .rond-small {
+    position: absolute;
+    border-radius: 50%;
+    background: #ffff;
+    height: 10vh;
+    width: 10vh; 
+    border: solid 1rem #2a2a2a;
+  }
+
+  #rond-gauche-small {
+    top: 5vh;
+    left: 10vw;
+  }
+
+  #rond-droit-small {
+    top: 10vh;
+    right: 11vw;
+  }
+
+ 
