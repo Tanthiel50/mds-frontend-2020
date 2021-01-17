@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="presentation.css" type="text/css">
   <link rel="stylesheet" href="skills.css" type="text/css">
   <link rel="stylesheet" href="job.css" type="text/css">
+  <link rel="stylesheet" href="portfolio.css" type="text/css">
   <link rel="stylesheet" href="contact.css" type="text/css">
   </head>
 
@@ -30,7 +31,6 @@
                 <li><a href="#competences">COMPETENCES</a></li>
                 <li><a href="#experiences">EXPERIENCES</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#contact">CONTACT</a></li>
               </ul>
             </nav>
           </div>
@@ -39,8 +39,8 @@
         <div class="box c">
           <div><a name="home"></a><h1> CECILE BLIN<br>Webmarketing<br>et Social media</h1></div>
           <div class="button">
-            <div id="button-portfolio"><a href="#portfolio"> Portfolio</a></div>
-            <div id="button-cv"><a href="PDF/Web 1920 – 1.pdf" target="_blank" download="CV-cecile-blin.pdf"> Télécharger <br>le CV</a></div>
+            <div class="button_cont"><a class="button-effect" href="#portfolio"> Portfolio</a></div>
+            <div id="button_cont"><a class="button-effect" href="PDF/Web 1920 – 1.pdf" target="_blank" download="CV-cecile-blin.pdf"> Télécharger <br>le CV</a></div>
           </div>
           <div class="rond" id="rond-gauche"></div>
           <div class="rond" id="rond-droit"></div>
@@ -54,13 +54,12 @@
 
         <div class="box e">
           <a name="presentation"></a>
-            <div id="presentation">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum."</div>
+            <div id="presentation">Après de nombreuses expériences très variées, je suis revenue dans
+              les Pays de la Loire afin de reprendre mes études et ainsi valider mes compétences acquises
+              dans le milieu professionnel. Actuellement en poste chez SEIF Consult, je suis en charge de
+              mettre en place la relation client sur clients acquis. Je travaille donc avec des outils tels
+              que Zendesk, Hubspot, Indesign, Adobe XD.
+            </div>
           <div class="logo-social">
               <a href="https://www.facebook.com/tanthiel" target="_blank">
                 <img class="logo" src="ressources/facebook-outline@2x.png">
@@ -73,7 +72,7 @@
               </a>
           </div>
           <div class="button">
-            <div id="button-cv-blue"><a href="PDF/Web 1920 – 1.pdf" target="_blank" download="CV-cecile-blin.pdf"> Télécharger le CV</a></div>
+            <div id="button_cont"><a class="button-effect" href="mailto:cecile.blin@hotmail.fr?subject=Mail depuis site"> Envoyer un mail</a></div>
           </div>
         </div>
 
@@ -165,16 +164,121 @@
 
         <div class="box i"><a name="portfolio"></a>
           <div class="titre"><h2>PORTFOLIO</h2><div class="separation"></div></div>
-          <div>Voir plus</div>
+          <div class="portfolio-blocs">
+            <div class="image">
+                <img class="image__img" src="ressources/portfolio/banniere.jpg" alt="Bricks">
+                <div class="image__overlay">
+                    <div class="image__title">Banniere</div>
+                    <p class="image__description">
+                    Linkedin
+                    </p>
+                </div>
+            </div>
+
+            <div class="image">
+              <img class="image__img" src="ressources/portfolio/carte-de-voeux.jpg" alt="Bricks">
+              <div class="image__overlay">
+                  <div class="image__title">Carte de voeux</div>
+                  <p class="image__description">
+                  Noel
+                  </p>
+              </div>
+            </div>
+
+            <div class="image">
+              <img class="image__img" src="ressources/portfolio/faq-jeanneau.jpg" alt="Bricks">
+              <div class="image__overlay">
+                  <div class="image__title">FAQ</div>
+                  <p class="image__description">
+                  Jeanneau
+                  </p>
+              </div>
+          </div>
+
+          <div class="image">
+            <img class="image__img" src="ressources/portfolio/landing page.jpg" alt="Bricks">
+            <div class="image__overlay">
+                <div class="image__title">Landing page</div>
+                <p class="image__description">
+                Salon de la relation client
+                </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img class="image__img" src="ressources/portfolio/logo-noel.jpg" alt="Bricks">
+            <div class="image__overlay">
+                <div class="image__title">Logo</div>
+                <p class="image__description">
+                Noel
+                </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img class="image__img" src="ressources/portfolio/logo-nouvel-an.jpg" alt="Bricks">
+            <div class="image__overlay">
+                <div class="image__title">Logo</div>
+                <p class="image__description">
+                Nouvel an
+                </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img class="image__img" src="ressources/portfolio/logo-paque.jpg" alt="Bricks">
+            <div class="image__overlay">
+                <div class="image__title">Logo</div>
+                <p class="image__description">
+                Paques
+                </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img class="image__img" src="ressources/portfolio/mailing-concession.jpg" alt="Bricks">
+            <div class="image__overlay">
+                <div class="image__title">Mailing</div>
+                <p class="image__description">
+                Lead concessionnaires
+                </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img class="image__img" src="ressources/portfolio/mailing-voeux.jpg" alt="Bricks">
+            <div class="image__overlay">
+                <div class="image__title">Mailing</div>
+                <p class="image__description">
+                Voeux de bonne année
+                </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img class="image__img" src="ressources/portfolio/plaquette-prestation.jpg" alt="Bricks">
+            <div class="image__overlay">
+                <div class="image__title">Plaquette</div>
+                <p class="image__description">
+                Fin de prestation
+                </p>
+            </div>
+          </div>
+
+          <div class="image">
+            <img class="image__img" src="ressources/portfolio/template-post.jpg" alt="Bricks">
+            <div class="image__overlay">
+                <div class="image__title">Template</div>
+                <p class="image__description">
+                Post Linkedin
+                </p>
+            </div>
+          </div>
         </div>
+      </div>
 
         <div class="box j">
-          <a name="contact"></a>
-            <div class="titre"><h2>CONTACT</h2><div class="separation"></div></div>
-            <div class="encart">
-              <div id="adresse"><h3>Adresse</h3><br>22 rue Edouard Lalo<br>85500 Les Herbiers</div>
-              <div id="mail"><h3>Mail</h3><br><a href="mailto:cecile.blin@hotmail.fr?subject=Mail depuis site"> Envoyer un email</a></div>
-            </div>
+          
         </div>
       </div>
   

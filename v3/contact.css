@@ -9,29 +9,3 @@
     padding-left: 1rem;
     color: #323232;
 }
-
-.encart {
-    display: flex;
-    padding-top: 2rem;
-    width: 100%;
-    justify-content: space-around;
-    text-align: center;
-    font-family: 'poppins-regular';
-    font-size: 1.5rem;
-}
-
-#adresse {
-    border: solid #707070;
-    padding-bottom: 1rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    border-radius: 5%;
-}
-
-#mail {
-    border: solid #707070;
-    padding-bottom: 1rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    border-radius: 5%;
-}

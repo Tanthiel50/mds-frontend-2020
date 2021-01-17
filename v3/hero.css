@@ -6,6 +6,8 @@
     font-family: 'cooperfiveopti';
     background-color: #2a2a2a;
     color: #f2f2f2;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-size: 1.3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -91,5 +93,25 @@
     top: 10vh;
     right: 11vw;
   }
+
+  .button-effect {
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+  }
+
+  .button-effect:hover {
+    color: #3498db !important;
+    font-weight: 100 !important;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+    }
 
  

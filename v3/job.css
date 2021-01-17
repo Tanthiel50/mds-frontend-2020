@@ -13,7 +13,7 @@
 
 .image {
     position: relative;
-    width: 25%;
+    width: 18%;
     margin: 1rem;
 }
 
@@ -28,18 +28,14 @@
     left: 0;
     height: 100%;
     width: 100%;
-
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     font-family: 'poppins-regular';
     opacity: 0;
     color: #ffffff;
     background: #3498db;
-
     transition: opacity 0.25s;
 }
 
