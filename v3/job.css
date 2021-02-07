@@ -43,6 +43,7 @@
     opacity: 1;
 }
 
+/*effet du hover*/
 .image__overlay > * {
     transform: translateY(20px);
     transition: transform 0.25s;

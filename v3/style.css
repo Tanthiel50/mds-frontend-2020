@@ -107,7 +107,7 @@ body {
     font-size: 1.5rem;
   }
 
-  .separation {
+  /*.separation {
       border-top: solid #707070 0.3rem;
       width: 100%;
       margin-top: -1.5rem;

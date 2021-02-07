@@ -3,7 +3,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    z-index: 1000;
+    z-index: 1000;/*pour que la nav reste en top position*/
     /*border-bottom: solid #323232 0.3rem;*/
     background-color: white;
 }
@@ -46,7 +46,7 @@
     text-decoration: none;
     transition: 0.5s;
 }
-  
+/*pour faire apparaitre barre de soulignement*/
 .b ul li a::after {
     position: absolute;
     content: "";
@@ -63,7 +63,8 @@
 .b ul li a:hover {
     color: #95a5a6;
 }
-  
+
+/*pour defilement de la barre de soulignement*/
 .b ul li a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
